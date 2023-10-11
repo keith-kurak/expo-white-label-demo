@@ -13,7 +13,14 @@ While your local dev server is running, you can run `yarn switch <brand>` and yo
 
 If you update the values in the **brands** folder itself, you can also run `yarn switch <brand>` again
 
-## 📁 File Structure
+## How it works
+This app includes essentially a single code space along with a folder (**current-brand**) that is populated with whatever brand's configuration and assets that you currently want to develop/ build. The `yarn switch` command copies files from the **brands** folder (which in turn contains a folder for each brand). When running a local development server, Metro Bundler picks up the file changes and reloads the app, showing the updated brand. This allows us to swap both Expo Config (app.config.js) customizations used at build time and styles, copy, and assets used at runtime, including static images.
+
+**current-brand** is gitignored, so you don't check in these temporary files. Thus, this project will not run until you run `yarn switch` at least once to populate this folder. An **.easignore** file then forces the **current-brand** folder to be uploaded to EAS Build, ensuring that EAS Build builds an app for the correct brand.
+
+Each app will have its own distinct slug and project ID, so each will be a distinct project in EAS. In turn, if you use EAS Update, each app will be updated individually.
+
+### 📁 File Structure
 
 ```
 ├── app ➡️ a typical Expo Router screen hierarchy
