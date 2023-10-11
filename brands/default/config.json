@@ -1,0 +1,10 @@
+{
+  "belowIconName": "White Label",
+  "fullName": "Expo Default White Label App",
+  "brandColor": "#387FE9",
+  "androidAdaptiveIconBackgroundColor": "#387FE9",
+  "expoSlug": "Default",
+  "expoProjectId": null,
+  "iosBundleIdentifier": "com.expo.defaultwhitelabel",
+  "androidPackage": "com.expo.defaultwhitelabel"
+}
