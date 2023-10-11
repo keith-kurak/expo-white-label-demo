@@ -38,7 +38,7 @@ module.exports = () => {
     extra: {
       eas: {
         // 'undefined' tells `eas init` that a project ID isn't set yet, so it's safe to define one
-        projectId: brandConfig.expoProjectId || undefined,
+        projectId: brandConfig.easProjectId || undefined,
       },
     },
   };

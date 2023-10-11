@@ -4,7 +4,7 @@
   "brandColor": "#32294D",
   "androidAdaptiveIconBackgroundColor": "#32294D",
   "expoSlug": "gamer-garage",
-  "expoProjectId": "4b509dbe-119a-499e-be29-d271e12a55a4",
+  "easProjectId": "4b509dbe-119a-499e-be29-d271e12a55a4",
   "iosBundleIdentifier": "com.expo.gamergarage",
   "androidPackage": "com.expo.gamergarage"
 }

@@ -4,7 +4,7 @@
   "brandColor": "#387FE9",
   "androidAdaptiveIconBackgroundColor": "#387FE9",
   "expoSlug": "Default",
-  "expoProjectId": null,
+  "easProjectId": null,
   "iosBundleIdentifier": "com.expo.defaultwhitelabel",
   "androidPackage": "com.expo.defaultwhitelabel"
 }
